@@ -1,0 +1,345 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,btn_jiXuTiaoZhan_png,btn_kaiShi_png,btn_quXiaoTuBiao_png,btn_shuoMing_png,btn_shuoMingTuBiao_png,btn_zaiLaiYiCi_png,btn_zhishi_png,btn_zhiShiTuBiao_png,btn_zhuYe_png,btn_zhuYeTuBiao_png,img_guanQiaBiaoTi_png,img_guGuanBeiJing_png,img_guoGuanBeiJing_png,img_guoGuanTanKuang_png,img_huYan_png,img_jiangPai_png,img_jiaYou_png,img_lose_png,img_shiBaiBeiJing_png,img_tanKuangDiCeng_png,img_xiaoXiaoChongHuangGuan_png,img_xiaoXiaoChongWin_png,img_xuanGuanKuang_png,egret_icon_png,img_logo_png,selected_png,logo_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,track_sb_png,thumb_png,track_png,tracklight_png,drag_begin_png,drag_end_png,item_bg_png,wenGao_png,handle_png,off_png,on_png,description_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "3d/scene/skyBox/cloudy_noon_DN.png",
+			"type": "image",
+			"name": "cloudy_noon_DN_png"
+		},
+		{
+			"url": "3d/scene/skyBox/cloudy_noon_UP.png",
+			"type": "image",
+			"name": "cloudy_noon_UP_png"
+		},
+		{
+			"url": "3d/scene/skyBox/cloudy_noon_BK.png",
+			"type": "image",
+			"name": "cloudy_noon_BK_png"
+		},
+		{
+			"url": "3d/scene/skyBox/cloudy_noon_RT.png",
+			"type": "image",
+			"name": "cloudy_noon_RT_png"
+		},
+		{
+			"url": "3d/scene/skyBox/cloudy_noon_LF.png",
+			"type": "image",
+			"name": "cloudy_noon_LF_png"
+		},
+		{
+			"url": "3d/scene/skyBox/cloudy_noon_FR.png",
+			"type": "image",
+			"name": "cloudy_noon_FR_png"
+		},
+		{
+			"url": "3d/0_Model/Eam/attack.eam",
+			"type": "bin",
+			"name": "attack_eam"
+		},
+		{
+			"url": "3d/0_Model/Eam/idle.eam",
+			"type": "bin",
+			"name": "idle_eam"
+		},
+		{
+			"url": "3d/0_Model/Esm/Zhouyu.esm",
+			"type": "bin",
+			"name": "Zhouyu_esm"
+		},
+		{
+			"url": "3d/0_Model/Texture/hero_01.png",
+			"type": "image",
+			"name": "hero_01_png"
+		},
+		{
+			"url": "3d/0_Model/MapConfig.json",
+			"type": "json",
+			"name": "MapConfig_json"
+		},
+		{
+			"url": "3d/background.jpg",
+			"type": "image",
+			"name": "background_jpg"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/common/btn_jiXuTiaoZhan.png",
+			"type": "image",
+			"name": "btn_jiXuTiaoZhan_png"
+		},
+		{
+			"url": "assets/common/btn_kaiShi.png",
+			"type": "image",
+			"name": "btn_kaiShi_png"
+		},
+		{
+			"url": "assets/common/btn_quXiaoTuBiao.png",
+			"type": "image",
+			"name": "btn_quXiaoTuBiao_png"
+		},
+		{
+			"url": "assets/common/btn_shuoMing.png",
+			"type": "image",
+			"name": "btn_shuoMing_png"
+		},
+		{
+			"url": "assets/common/btn_shuoMingTuBiao.png",
+			"type": "image",
+			"name": "btn_shuoMingTuBiao_png"
+		},
+		{
+			"url": "assets/common/btn_zaiLaiYiCi.png",
+			"type": "image",
+			"name": "btn_zaiLaiYiCi_png"
+		},
+		{
+			"url": "assets/common/btn_zhishi.png",
+			"type": "image",
+			"name": "btn_zhishi_png"
+		},
+		{
+			"url": "assets/common/btn_zhiShiTuBiao.png",
+			"type": "image",
+			"name": "btn_zhiShiTuBiao_png"
+		},
+		{
+			"url": "assets/common/btn_zhuYe.png",
+			"type": "image",
+			"name": "btn_zhuYe_png"
+		},
+		{
+			"url": "assets/common/btn_zhuYeTuBiao.png",
+			"type": "image",
+			"name": "btn_zhuYeTuBiao_png"
+		},
+		{
+			"url": "assets/common/img_guanQiaBiaoTi.png",
+			"type": "image",
+			"name": "img_guanQiaBiaoTi_png"
+		},
+		{
+			"url": "assets/common/img_guGuanBeiJing.png",
+			"type": "image",
+			"name": "img_guGuanBeiJing_png"
+		},
+		{
+			"url": "assets/common/img_guoGuanBeiJing.png",
+			"type": "image",
+			"name": "img_guoGuanBeiJing_png"
+		},
+		{
+			"url": "assets/common/img_guoGuanTanKuang.png",
+			"type": "image",
+			"name": "img_guoGuanTanKuang_png"
+		},
+		{
+			"url": "assets/common/img_huYan.png",
+			"type": "image",
+			"name": "img_huYan_png"
+		},
+		{
+			"url": "assets/common/img_jiangPai.png",
+			"type": "image",
+			"name": "img_jiangPai_png"
+		},
+		{
+			"url": "assets/common/img_jiaYou.png",
+			"type": "image",
+			"name": "img_jiaYou_png"
+		},
+		{
+			"url": "assets/common/img_lose.png",
+			"type": "image",
+			"name": "img_lose_png"
+		},
+		{
+			"url": "assets/common/img_shiBaiBeiJing.png",
+			"type": "image",
+			"name": "img_shiBaiBeiJing_png"
+		},
+		{
+			"url": "assets/common/img_tanKuangDiCeng.png",
+			"type": "image",
+			"name": "img_tanKuangDiCeng_png"
+		},
+		{
+			"url": "assets/common/img_xiaoXiaoChongHuangGuan.png",
+			"type": "image",
+			"name": "img_xiaoXiaoChongHuangGuan_png"
+		},
+		{
+			"url": "assets/common/img_xiaoXiaoChongWin.png",
+			"type": "image",
+			"name": "img_xiaoXiaoChongWin_png"
+		},
+		{
+			"url": "assets/common/img_xuanGuanKuang.png",
+			"type": "image",
+			"name": "img_xuanGuanKuang_png"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "assets/img_logo.png",
+			"type": "image",
+			"name": "img_logo_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/logo.png",
+			"type": "image",
+			"name": "logo_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/tk/drag_begin.png",
+			"type": "image",
+			"name": "drag_begin_png"
+		},
+		{
+			"url": "assets/tk/drag_end.png",
+			"type": "image",
+			"name": "drag_end_png"
+		},
+		{
+			"url": "assets/tk/item_bg.png",
+			"type": "image",
+			"name": "item_bg_png"
+		},
+		{
+			"url": "assets/tk/wenGao.png",
+			"type": "image",
+			"name": "wenGao_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		}
+	]
+}

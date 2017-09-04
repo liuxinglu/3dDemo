@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Egret</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+	<script>
+	function getURL(){
+            return "";//return "/egret/" + window.gameType + "/";
+        }
+
+		function sendMsg(msg) {
+			console.log(msg);
+		}
+
+		function createScript(type) {
+			var node = document.createElement('script');
+			node.type = 'text/javascript';
+			node.charset = 'utf-8';
+			node.src = "/egret/" + type + "/main.min.js";
+			return node;
+		}
+
+		var callback = function () { //call init & show if script loaded async
+			showGame();
+		}
+
+		var type;
+		function loadGame(type) {
+			type = type;
+			window.gameType = type;
+			var head = document.getElementsByTagName('head')[0];
+			var script = createScript(type);
+			head.appendChild(script);
+
+			document.addEventListener ? 
+				script.addEventListener("load", callback, false) :
+				script.onreadystatechange = function () {
+					if (/loaded|complete/.test(script.readyState)) {
+						script.onreadystatechange = null;
+						callback();
+					}
+				}
+		}
+
+		function showGame() {
+			egret.runEgret({renderMode:"webgl", audioType:0});
+			var ele = document.getElementsByTagName("canvas")[1];
+			ele.style.visibility = v;
+		}
+
+		var gameStudents;
+		function loadGameComplete() {
+			Qipan.dataHandler.setStudentsFromServer(gameStudents);
+		}
+
+		function setStudents(students) {
+			gameStudents = students;
+		}
+
+		var v;
+		function setVisible(b) {
+			v = b;
+		}
+
+		function getInfoToken() {
+			
+			return {_loginToken:"09c4cdc486f643cd8e7d8a044e004a22", _userName:"user1", _userType:1, _userRole:"COORDINATOR", userName:"user1", userType:1, userRole:"STUDENT"};
+		}
+	</script>
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+	<!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/egret3d/egret3d.js" src-release="libs/modules/egret3d/egret3d.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="resourcemanager/resourcemanager.js" src-release="resourcemanager/resourcemanager.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <script egret="lib" src="polyfill/promise.js" src-release="polyfill/promise.min.js"></script>
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/lxl/event/CDispatcher.js"></script>
+	<script egret="game" src="bin-debug/lxl/ui/CComponent.js"></script>
+	<script egret="game" src="bin-debug/data/DataHandler.js"></script>
+	<script egret="game" src="bin-debug/lxl/ui/ConfirmPanel.js"></script>
+	<script egret="game" src="bin-debug/lxl/ui/CLayer.js"></script>
+	<script egret="game" src="bin-debug/data/ViewData.js"></script>
+	<script egret="game" src="bin-debug/lxl/ResManager.js"></script>
+	<script egret="game" src="bin-debug/lxl/ui/AlertPanel.js"></script>
+	<script egret="game" src="bin-debug/lxl/GlobalData.js"></script>
+	<script egret="game" src="bin-debug/lxl/Alert.js"></script>
+	<script egret="game" src="bin-debug/V3dManager.js"></script>
+	<script egret="game" src="bin-debug/lxl/data/PackageOut.js"></script>
+	<script egret="game" src="bin-debug/lxl/DataManager.js"></script>
+	<script egret="game" src="bin-debug/lxl/euisys/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/lxl/euisys/ThemeAdapter.js"></script>
+	<script egret="game" src="bin-debug/event/CustomEvent.js"></script>
+	<script egret="game" src="bin-debug/lxl/event/CEvent.js"></script>
+	<script egret="game" src="bin-debug/3d/GameScene.js"></script>
+	<script egret="game" src="bin-debug/lxl/interface/IDataHandler.js"></script>
+	<script egret="game" src="bin-debug/lxl/interface/IDataManager.js"></script>
+	<script egret="game" src="bin-debug/lxl/ApplicationPet.js"></script>
+	<script egret="game" src="bin-debug/lxl/interface/IPackageOut.js"></script>
+	<script egret="game" src="bin-debug/lxl/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/lxl/Log.js"></script>
+	<script egret="game" src="bin-debug/lxl/Pop.js"></script>
+	<script egret="game" src="bin-debug/lxl/ConfigPet.js"></script>
+	<script egret="game" src="bin-debug/lxl/Tool.js"></script>
+	<script egret="game" src="bin-debug/lxl/data/BaseData.js"></script>
+	<script egret="game" src="bin-debug/lxl/ui/CButton.js"></script>
+	<script egret="game" src="bin-debug/lxl/data/BaseDataHandler.js"></script>
+	<script egret="game" src="bin-debug/lxl/ui/CGroup.js"></script>
+	<script egret="game" src="bin-debug/lxl/data/NetData.js"></script>
+	<script egret="game" src="bin-debug/lxl/data/PackageIn.js"></script>
+	<script egret="game" src="bin-debug/lxl/util/Dictionary.js"></script>
+	<script egret="game" src="bin-debug/lxl/util/GTool.js"></script>
+	<script egret="game" src="bin-debug/lxl/util/MathUtil.js"></script>
+	<script egret="game" src="bin-debug/lxl/util/NumberUtil.js"></script>
+	<script egret="game" src="bin-debug/lxl/util/TimerUtils.js"></script>
+	<script egret="game" src="bin-debug/Main8.js"></script>
+	<script egret="game" src="bin-debug/ui/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/lxl/interface/IPackageIn.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main8"
+         data-orientation="auto"
+         data-scale-mode="showAll"
+         data-frame-rate="30"
+         data-content-width="1366"
+         data-content-height="768"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <script>
+        /**
+         * {
+         * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+         * "audioType": 0 //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+         * "antialias": //WebGL模式下是否开启抗锯齿，true:开启，false:关闭，默认为false
+         * "retina": //是否基于devicePixelRatio缩放画布
+         * }
+         **/
+		window.onload = function(){
+			// setTimeout(()=>{
+        		egret.runEgret({renderMode:"webgl", audioType:0});
+			// }, 1000);
+		};
+		
+    </script>
+</body>
+</html>
