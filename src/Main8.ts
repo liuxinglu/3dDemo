@@ -85,7 +85,15 @@ class Main8 extends egret.DisplayObject {
                 "3d/0_Model/Esm/Zhouyu.esm",
                 "3d/0_Model/Eam/attack.eam",
                 "3d/0_Model/Eam/idle.eam",
-                "3d/0_Model/Texture/hero_01.png"
+                "3d/0_Model/Texture/hero_01.png",
+                // "3d/1.jpg",
+                // "resource/3d/timg.jpeg",
+                // "resource/3d/scene/skyBox/cloudy_noon_FR.png",
+                // "resource/3d/scene/skyBox/cloudy_noon_BK.png",
+                // "resource/3d/scene/skyBox/cloudy_noon_LF.png",
+                // "resource/3d/scene/skyBox/cloudy_noon_RT.png",
+                // "resource/3d/scene/skyBox/cloudy_noon_UP.png",
+                // "resource/3d/scene/skyBox/cloudy_noon_DN.png"
             ];
             await load(resources);
             this.stage.removeChild(loading)

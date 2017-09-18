@@ -27,7 +27,9 @@
 					"cloudy_noon_RT.png": "3d/scene/skyBox/cloudy_noon_RT.png",
 					"cloudy_noon_UP.png": "3d/scene/skyBox/cloudy_noon_UP.png"
 				}
-			}
+			},
+			"1.jpg":"3d/1.jpg",
+			"timg.jpeg":"3d/timg.jpeg"
 		}
 	}
 }

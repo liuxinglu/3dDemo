@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bg_jpg,button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,btn_jiXuTiaoZhan_png,btn_kaiShi_png,btn_quXiaoTuBiao_png,btn_shuoMing_png,btn_shuoMingTuBiao_png,btn_zaiLaiYiCi_png,btn_zhishi_png,btn_zhiShiTuBiao_png,btn_zhuYe_png,btn_zhuYeTuBiao_png,img_guanQiaBiaoTi_png,img_guGuanBeiJing_png,img_guoGuanBeiJing_png,img_guoGuanTanKuang_png,img_huYan_png,img_jiangPai_png,img_jiaYou_png,img_lose_png,img_shiBaiBeiJing_png,img_tanKuangDiCeng_png,img_xiaoXiaoChongHuangGuan_png,img_xiaoXiaoChongWin_png,img_xuanGuanKuang_png,egret_icon_png,img_logo_png,selected_png,logo_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,track_sb_png,thumb_png,track_png,tracklight_png,drag_begin_png,drag_end_png,item_bg_png,wenGao_png,handle_png,off_png,on_png,description_json",
+			"keys": "bg_jpg,button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,btn_jiXuTiaoZhan_png,btn_kaiShi_png,btn_quXiaoTuBiao_png,btn_shuoMing_png,btn_shuoMingTuBiao_png,btn_zaiLaiYiCi_png,btn_zhishi_png,btn_zhiShiTuBiao_png,btn_zhuYe_png,btn_zhuYeTuBiao_png,img_guanQiaBiaoTi_png,img_guGuanBeiJing_png,img_guoGuanBeiJing_png,img_guoGuanTanKuang_png,img_huYan_png,img_jiangPai_png,img_jiaYou_png,img_lose_png,img_shiBaiBeiJing_png,img_tanKuangDiCeng_png,img_xiaoXiaoChongHuangGuan_png,img_xiaoXiaoChongWin_png,img_xuanGuanKuang_png,egret_icon_png,img_logo_png,selected_png,logo_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,track_sb_png,thumb_png,track_png,tracklight_png,drag_begin_png,drag_end_png,item_bg_png,wenGao_png,handle_png,off_png,on_png,description_json,timg_jpeg,1_jpg",
 			"name": "preload"
 		}
 	],
@@ -340,6 +340,16 @@
 			"url": "config/description.json",
 			"type": "json",
 			"name": "description_json"
+		},
+		{
+			"name": "timg_jpeg",
+			"type": "image",
+			"url": "3d/timg.jpeg"
+		},
+		{
+			"name": "1_jpg",
+			"type": "image",
+			"url": "3d/1.jpg"
 		}
 	]
 }

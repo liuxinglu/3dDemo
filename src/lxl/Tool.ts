@@ -13,7 +13,6 @@ module lxl3d {
 			if(egret.Capabilities.runtimeType == "native")
 				return "";
 			return window[funcName](...param);
-			
 		}
 		static MapToField(m:Array<data.Map>):string {
 			let arr = [];

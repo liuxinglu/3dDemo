@@ -16,6 +16,7 @@ module app {
 
 		private _get3DParam(data:any) {
 			lxl3d.CDispatcher.getInstance().dispatch(new lxl3d.CEvent(CustomEvent.V3D, data as ViewData));
+			
 		}
 
 		public getMessageFromServer(data:any) {
